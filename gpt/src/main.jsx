@@ -8,8 +8,8 @@ import HomePage from "./routes/Homepage/Homepage.jsx"
 import DashboardLayout from './Layouts/DashboardLayout/DashboardLayout.jsx'
 import Dashboard from "./routes/Dashboard/Dashboard.jsx"
 import ChatPage from "./routes/ChatPage/ChatPage.jsx"
-import SignUp from './routes/SignUp/SignUp.jsx'
-import SignIn from './routes/SignIn/SignIn.jsx'
+import SignUpPage from './routes/SignUp/SignUp.jsx'
+import SignInPage from './routes/SignIn/SignIn.jsx'
 
 
 const router = createBrowserRouter([
@@ -22,11 +22,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/sign-up/*",
-        element: <SignUp />
+        element: <SignUpPage />
       },
       {
         path: "/sign-in/*",
-        element: <SignIn />
+        element: <SignInPage />
       },
       {
         element : <DashboardLayout/>,
