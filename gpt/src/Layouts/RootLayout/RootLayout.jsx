@@ -1,7 +1,7 @@
 import { Link, Outlet } from 'react-router-dom'
 import './rootLayout.css'
 import Logo from "../../assets/react.svg"
-import { SignedIn, SignedOut, SignInButton, UserButton,ClerkProvider} from "@clerk/clerk-react";
+import { SignedIn, UserButton,ClerkProvider} from "@clerk/clerk-react";
 
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
