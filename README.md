@@ -1,2 +1,0 @@
-# your-gpt
-Chat gpt 
